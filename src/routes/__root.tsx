@@ -74,13 +74,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Pflege-Assessment" },
-      { name: "description", content: "Klinische Praxis Coach - Prüfungssimulation" },
+      { title: "Lovable App" },
+      { name: "description", content: "Klinische Praxis Coach is a web app for medical and nursing exam simulation." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Pflege-Assessment" },
-      { property: "og:description", content: "Klinische Praxis Coach - Prüfungssimulation" },
+      { property: "og:title", content: "Lovable App" },
+      { property: "og:description", content: "Klinische Praxis Coach is a web app for medical and nursing exam simulation." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Lovable App" },
+      { name: "twitter:description", content: "Klinische Praxis Coach is a web app for medical and nursing exam simulation." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c3566658-0a28-42a3-ae6f-f56db73ae924/id-preview-85aeb826--007020cc-e1eb-432a-b0ff-05b4bfeb1758.lovable.app-1779794385510.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c3566658-0a28-42a3-ae6f-f56db73ae924/id-preview-85aeb826--007020cc-e1eb-432a-b0ff-05b4bfeb1758.lovable.app-1779794385510.png" },
     ],
     links: [
       {
